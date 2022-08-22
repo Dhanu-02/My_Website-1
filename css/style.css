@@ -1,11 +1,11 @@
-body {
+.body {
   margin: 0;
   text-align: center;
-  font-family: 'Lemonada', cursive;
+  font-family: sans-serif;
   font-weight: normal;
 }
 
-h1 {
+.h1 {
   margin: 0;
   position: static;
   color: #66BFBF;
@@ -13,17 +13,17 @@ h1 {
   line-height: 2;
 
 }
-h2{
+.h2{
   color: #66BFBF;
   font-size: 30px;
 }
-h3{
+.h3{
   color: #11999E;
 }
-a{
+.a{
   color: #11999E;
 }
-p {
+.p {
   margin: 0;
   font-family: 'Lemonada', cursive;
 }
@@ -44,7 +44,7 @@ p {
   margin-left: 25px;
   float: right;
 }
-ul{
+.ul{
   display:inline-block;
   font-family: 'Lemonada', cursive;
 
@@ -55,7 +55,7 @@ ul{
 .get{
   font-family: 'Lemonada', cursive;
 }
-hr {
+.hr {
   border-top-style: dotted;
   width: 10%;
   border-bottom: hidden;
@@ -146,7 +146,7 @@ hr {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 10%;
+  width: 20%;
   will-change: transform;
   margin-bottom: 20px;
 }
